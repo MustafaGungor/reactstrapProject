@@ -1,0 +1,35 @@
+{
+  "name": "DataGridModel",
+  "fields": [
+    {
+      "label": "id",
+      "type": "number",
+      "name": "id",
+      "tooltip": "id",
+      "visible": false,
+      "filter": true,
+      "range": true,
+      "sort": "asc"
+    },
+    {
+      "label": "Name",
+      "type": "string",
+      "name": "name",
+      "tooltip": "Name",
+      "filter": true,
+      "sort": "asc",
+      "validations": {
+        "required": true
+      },
+      "mapping":"personal.name"
+    },
+    {
+      "label": "Surname",
+      "type": "string",
+      "name": "surname",
+      "tooltip": "Surname",
+      "sort": "desc",
+        "mapping":"personal.surname"
+    }
+  ]
+}

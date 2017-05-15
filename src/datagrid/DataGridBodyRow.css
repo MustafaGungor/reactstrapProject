@@ -1,0 +1,19 @@
+.focus-click{
+    position: relative;
+    display: block;
+    float: right;
+    padding: 0.8em;
+    width: 60%;
+    border: none;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #aaa;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-appearance: none;
+}
+.focus-alert{
+    width: 100%;
+    background: transparent;
+    color: #7A7593;
+}

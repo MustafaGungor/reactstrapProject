@@ -1,0 +1,121 @@
+html {
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: #484848;
+    line-height: 1.28;
+}
+
+body {
+    overflow: hidden;
+}
+
+.banner {
+    background: white;
+    color: #333;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px
+}
+
+.footer {
+    border-top: #333 dotted 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+}
+
+.navbar-header {
+    line-height: 32px;
+}
+.navbar-header img {
+    float: left !important;
+    margin-right: 20px;
+    height: 34px;
+}
+
+.navbar-header a {
+    color: #2c3e50 !important;
+}
+
+nav.headerMenu .nav-link {line-height:2.5rem }
+
+#nav-dropdown {
+    border-bottom: 3px solid transparent;
+}
+
+#nav-dropdown .dropdown-menu {margin-top: 3px;}
+
+#nav-dropdown.show {
+    border-color:#337ab7;
+}
+
+.btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0px;
+    outline-offset: -2px;
+}
+
+.container > .navbar-header {
+    border-bottom: 3px solid transparent;
+}
+
+.navbar .navbar-nav > li > a {
+    border-bottom: 3px solid transparent;
+    color: #2c3e50;
+}
+
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > .active > a:hover {
+    color: #2c3e50 !important;
+    background-color: transparent !important;
+}
+
+.navbar .navbar-nav > li > a:focus, .navbar .navbar-nav > li > a:hover {
+    color: #2c3e50 !important;
+    background-color: transparent !important;
+}
+
+.navbar .navbar-collapse, .navbar .navbar-form {
+    border-color: transparent;
+}
+
+pre {
+    padding: 0 !important;
+    border: 1px solid #eee !important;
+}
+
+pre code {
+    padding-top: 25px !important;
+}
+
+.componentMenu li {
+    margin-left: 30px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .headerMenu {padding-bottom: 5px !important; padding-top: 8px !important;}
+}
+
+a:hover {
+    cursor: pointer;
+}
