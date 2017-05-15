@@ -1,3 +1,6 @@
+Proje Robe-react-ui componentlerinin bulunduğu ve üzerinde değişiklik yapılmak istenilmesi üzerine test
+niteliği taşımaktadır.
+
 ![Showcase](./showcase.gif)
 # Robe-React-UI
 #### UI library built on top of <code>React-Bootstrap</code>
